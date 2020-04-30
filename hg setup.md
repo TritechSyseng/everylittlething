@@ -53,3 +53,4 @@ default = git+ssh://git@github.com:xxx/repo.git
 
 ### Reference 
 [https://www.codeproject.com/Articles/376058/Step-by-step-Setup-TortoiseHg-for-gitHub]
+[https://stackoverflow.com/questions/2951011/how-to-let-tortoisehg-mercurial-on-windows-use-the-private-key-file-generated]
