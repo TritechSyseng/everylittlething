@@ -23,11 +23,14 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
    2. Run puttygen.exe
 
-   ```
-   [MENU] Conversions >> Import key
-
-   [BUTTON] Save private key
-   ```
+   Conversions >> Import key
+   
+   ![import key](/images/import_key.png)
+   
+   Save private key
+   
+   ![save private key](/images/save_private_key.png)
+   
 
 ## Setup TortoiseHg
 
