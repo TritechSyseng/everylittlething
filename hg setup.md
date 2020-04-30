@@ -51,3 +51,5 @@ ssh = "C:\Program Files\TortoiseHg\TortoisePlink.exe" -ssh -i "C:\[path]\private
 default = git+ssh://git@github.com:xxx/repo.git
 ```
 
+# ref 
+[https://www.codeproject.com/Articles/376058/Step-by-step-Setup-TortoiseHg-for-gitHub]
