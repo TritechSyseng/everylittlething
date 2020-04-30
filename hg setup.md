@@ -31,7 +31,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 Edit mercurial.ini: 
 
-   * Enable bookmark
+   * Enable bookmarks
 
    * Enter your hg-git path
 
@@ -42,13 +42,13 @@ Edit mercurial.ini:
 ```
 [extensions]
 bookmarks=
-hggit = C:\[path\hg-git\hggit
+hggit = C:\[path to]\hg-git\hggit
 
 [ui]
-ssh = "C:\Program Files\TortoiseHg\TortoisePlink.exe" -ssh -i "C:\[path]\private_key.ppk"
+ssh = "C:\[path to]\TortoisePlink.exe" -ssh -i "C:\[path to]\private_key.ppk"
 
 [paths]
-default = git+ssh://git@github.com:xxx/repo.git
+default = git+ssh://git@github.com:[someone]/[repo].git
 ```
 
 ### Reference 
